@@ -24,6 +24,6 @@ function getExcuse() {
 }
 
 window.onload = function() {
-  document.documentElement.innerHTML = "<p>" + getExcuse() + "</p>";
+  document.documentElement.querySelector("p").innerHTML = getExcuse();
   console.log("Hello Rigo from the consol!");
 };
